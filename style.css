@@ -1,0 +1,137 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* menu */
+h3 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 40px;
+    margin: 0;
+    font-size: 20px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+/* conteúdo */
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.informacoes {
+    display: grid;
+    background-color: #fff;
+    padding: 30px;
+    text-align: right; /*pega todo o texto presente no conteudo e empurra para a direita*/
+    align-content: start; /*coloca o coteúdo inteiro pra cima*/
+    grid-column: 1/2;
+}
+
+.vantagem {
+    align-self: center;
+    padding: 30px;
+}
+#vantagem1 {
+    font-size: 64px;
+    color: #c6c6c6;
+}
+
+a {
+    background-color: #ee2211;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    justify-self: right; /*justifica o botão para o lado direito*/
+
+}
+p {
+    font-size: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+    padding: 50px;
+    left: 10px;
+    right: 10px;
+    margin-top: 200px;
+}
+/*coluna das decrições*/
+.descricoes {
+    display: block;
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.inteligencia_artificial {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.dez_nucleos {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.rastreador {
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+}
+
+/*posicionamento da grid das descrições*/
+
+.icone {
+    justify-self: start;
+    align-self: center;
+}
+.paragrafo {
+    grid-column: 2;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+/*elemento vermelho*/
+
+.elemento {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: 40px;
+    justify-self: end;
+    left: 25px;
+}
+
+.red-line {
+    background-color: #ee2211;
+    color: #ee2211;
+    justify-self: end;
+    width: 50px; 
+    height: 5px;
+}
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
